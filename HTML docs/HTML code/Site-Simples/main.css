@@ -1,0 +1,52 @@
+:root{ --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+    
+    
+}
+
+html{
+    font-size: 10px;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+
+*{
+    color: #00ff00;
+    font-family: Helvetica;
+}
+
+body{
+    background: var(--black);
+}
+
+#img{
+    top: 1rem;
+    left: 50%;
+
+
+}
+
+.btn{
+    position: absolute;
+    top: 2rem;
+    left: 25rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color: aqua;
+    
+}
+
+.btn:focus{ outline-style: none;}

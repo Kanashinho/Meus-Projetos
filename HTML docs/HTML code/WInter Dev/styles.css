@@ -1,0 +1,54 @@
+:root{
+    --bg-color: black;
+    --font: font-family: "Geist Mono", serif;
+    --em-bg: aqua;
+    --color-font: white;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+*{
+    font-family: var(--font);
+}
+
+#body{
+    background-color: var(--bg-color);
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+#contato{
+    background-color: transparent;
+    color: aliceblue;
+    font-family: var(--font);
+    border-radius: 4rem;
+    margin: 5rem 5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+    display: flex;
+    gap: 30rem;
+    
+}
+
+#logo{
+    background-color: var(--bg-color);
+    width: 10rem;
+    height: 10rem;
+}
+
+.title{
+    font-size: 4.5rem;
+    color: var(--em-bg);
+    font-family: var(--font);
+    background-color: var(--bg-color);
+}
+
